@@ -1,0 +1,289 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1a1818;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bg-gray {
+    background-color: gray; /* Set the desired gray color */
+}
+
+.text-size {
+    font-size: 2rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #1a1818;
+    color: #fff;
+    /* text-align: center; */
+    /* height: 400px; */
+    /* padding: 100px 0; */
+}
+
+/* .text-center-ch-h1 {
+    font-size: 4.0rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+} */
+
+.text-justify-ch-p {
+    font-size: 1.3rem;
+    text-align: justify;
+    /* margin-left: 140px; */
+}
+
+.drhero {
+    /* margin-top: 24px; */
+    /* margin-left: 10px; */
+    width: 250px;
+}
+
+/* New Section 1 */
+.new-section-1 {
+    background: #f39c12;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Combined Section */
+.container {
+    /* width: 100%; */
+    /* padding: 50px 20px; */
+    text-align: center;
+}
+
+.pad-container {
+    padding: 50px 20px;
+}
+
+/* New Section 2 */
+.new-section-2 {
+    background: #2ecc71;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Card Styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin: 50px 0; */
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0; /* Ensure the image doesn't shrink inside the flex container */
+}
+
+.card-body {
+    flex: 1;
+}
+
+/* Footer Styling */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 1440px) {
+    .hero-section {
+        /* padding: 20px 0; */
+    }
+
+    .text-center-ch-h1 {
+        font-size: 4.0rem;
+        /* text-align: left; */
+        margin-top: 50px;
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+    
+    .text-justify-ch-p {
+        font-size: 1.4rem;
+        text-align: justify;
+        margin-left: 180px;
+    }
+
+    .drhero {
+        /* margin-left: 100px; */
+    }
+
+    .new-section-1,
+    .new-section-2,
+    .container {
+        /* padding: 30px 10px; */
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 1366px) {
+    .hero-section {
+        /* padding: 20px 0; */
+    }
+
+    .text-center-ch-h1 {
+        /* font-size: 4.0rem; */
+        /* text-align: left; */
+        /* margin-top: 50px; */
+        /* margin-left: -230px; */
+        /* margin-bottom: 50px; */
+    }
+    
+    .text-justify-ch-p {
+        /* font-size: 1.4rem; */
+        /* text-align: justify; */
+        /* margin-left: 140px; */
+    }
+
+    .drhero {
+        /* margin-left: 100px; */
+    }
+
+    .new-section-1,
+    .new-section-2,
+    .container {
+        /* padding: 30px 10px; */
+    }
+
+    .card {
+        /* margin: 15px 0; */
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-section {
+        /* padding: 20px 0; */
+    }
+
+    .text-center-ch-h1 {
+        font-size: 4.0rem;
+        /* text-align: left; */
+        margin-top: 50px;
+        margin-left: 120px;
+        margin-bottom: 50px;
+    }
+    
+    .text-justify-ch-p {
+        font-size: 1.4rem;
+        text-align: justify;
+        margin-left: 120px;
+    }
+
+    .drhero {
+        /* margin-left: 0px; */
+    }
+
+    .new-section-1,
+    .new-section-2,
+    .container {
+        padding: 30px 10px;
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        /* padding: 80px 0; */
+    }
+
+    /* .rheight {
+        height: 320px;
+    } */
+
+    .new-section-1,
+    .new-section-2,
+    .container {
+        padding: 30px 10px;
+    }
+
+    .text-center-ch-h1 {
+        font-size: 3.0rem;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .text-justify-ch-p {
+        font-size: 1.0rem;
+        text-align: justify;
+        margin-left: 80px;
+    }
+
+    .drhero {
+        /* margin-top: 20px; */
+        /* margin-left: -20px; */
+        width: 200px;
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+
+    .col {
+        flex: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-section {
+        /* padding: 60px 0; */
+    }
+
+    .text-center-ch-h1 {
+        font-size: 3.0rem;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    
+    .text-justify-ch-p {
+        font-size: 1.0rem;
+        text-align: justify;
+        margin-left: 52px;
+        margin-right: 52px;
+    }
+
+    .drhero {
+        /* margin-left: 140px; */
+    }
+
+    .new-section-1,
+    .new-section-2,
+    .container {
+        padding: 20px 10px;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+
+    .col {
+        flex: none;
+    }
+}
